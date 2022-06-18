@@ -349,9 +349,18 @@ function _enter() {
     problem = String(eval(problem));
 }
 
-
-
-
+function _sin() {
+    document.getElementById("result").innerHTML = Math.sin(problem * Math.PI / 180);
+    problem = String(eval(problem));
+}
+function _cos() {
+    document.getElementById("result").innerHTML = Math.cos(problem * Math.PI / 180);
+    problem = String(eval(problem));
+}
+function _tan() {
+    document.getElementById("result").innerHTML = Math.tan(problem * Math.PI / 180);
+    problem = String(eval(problem));
+}
 
 
 
