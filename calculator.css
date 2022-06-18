@@ -38,6 +38,11 @@ td {
     border-radius: 10px;
     background-color: cornflowerblue;
 }
+
+.unselectable:active {
+    background-color:red; transition: 0.7s;
+}
+
 th {
     border: 1px solid black;
     border-radius: 10px;
