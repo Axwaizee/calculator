@@ -24,7 +24,7 @@ table {
     text-align: center;
     color:white;
 }
-.unselectable {
+.unselectable, #result {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -39,7 +39,7 @@ td {
     background-color: cornflowerblue;
 }
 
-.unselectable:active {
+.unselectable:active, #oper:active, #decimal:active, #clear:active , #enter:active{
     background-color:red; transition: 0.7s;
 }
 
