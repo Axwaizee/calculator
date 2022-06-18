@@ -351,15 +351,15 @@ function _enter() {
 
 function _sin() {
     document.getElementById("result").innerHTML = Math.sin(problem * Math.PI / 180);
-    problem = String(eval(problem));
+    problem = String(Math.sin(problem * Math.PI / 180));
 }
 function _cos() {
     document.getElementById("result").innerHTML = Math.cos(problem * Math.PI / 180);
-    problem = String(eval(problem));
+    problem = String(Math.cos(problem * Math.PI / 180));
 }
 function _tan() {
     document.getElementById("result").innerHTML = Math.tan(problem * Math.PI / 180);
-    problem = String(eval(problem));
+    problem = String(Math.tan(problem * Math.PI / 180));
 }
 
 
