@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: aqua;
+    font-size: 3rem;
+    padding: 3vh;
+}
+.nav-links {
+    padding: 1vh 0;
+    margin-right: 2vw;
+}
+.nav-links a{
+    margin: 1px;
+    text-decoration: none;
+    color: snow;
+}
+.nav-links a:hover, .nav-links a:active{
+    border-radius: 50px;
+    background: no-repeat linear-gradient(to bottom right, black 10%, crimson 100%);
+}
+.home-images{
+    display: flex;
+    opacity: 50%;
+}
+.home-images img{
+    padding: 3vh 0 0;
+    width: 100vw;
+    margin: 0;
+}
+.axwaizee-intro{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+footer ul{
+    list-style:none;
+}
